@@ -3,6 +3,7 @@ import sys
 import requests
 import json
 import http.client
+import date
 
 temp_download_file_name = "download_data_" + datetime.today().strftime('%Y-%m-%d') + ".dat"
 #avoid Chunked encoded error
